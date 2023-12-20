@@ -39,11 +39,11 @@
           <div class="col-lg-7">
             <div class="img-property-slide-wrap">
               <div class="img-property-slide">
-                
+
                   @foreach($property->medias as $image)
                     <img src="{{ asset($image->getUrl()) }}" alt="Image" class="img-fluid" />
                   @endforeach
-                 
+
               </div>
             </div>
           </div>
