@@ -16,15 +16,9 @@
               data-aos-delay="200"
             >
               <ol class="breadcrumb text-center justify-content-center">
-<<<<<<< HEAD
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item">
-                  <a href="properties.html">Properties</a>
-=======
                 <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
                 <li class="breadcrumb-item">
                   <a href="{{ $this->url('index',['record' => 'property']) }}">Properties</a>
->>>>>>> dev
                 </li>
                 <li
                   class="breadcrumb-item active text-white-50"

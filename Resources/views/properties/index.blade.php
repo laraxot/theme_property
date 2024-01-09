@@ -1,11 +1,7 @@
 <div>
   <div
     class="hero page-inner overlay"
-<<<<<<< HEAD
-    style="background-image: url('images/hero_bg_1.jpg')"
-=======
     style="background-image: url('{{ $_theme->asset('pub_theme::images/hero_bg_1.jpg') }}')"
->>>>>>> dev
   >
     <div class="container">
       <div class="row justify-content-center align-items-center">
@@ -18,11 +14,7 @@
             data-aos-delay="200"
           >
             <ol class="breadcrumb text-center justify-content-center">
-<<<<<<< HEAD
-              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-=======
               <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
->>>>>>> dev
               <li
                 class="breadcrumb-item active text-white-50"
                 aria-current="page"
@@ -83,11 +75,7 @@
 
   <div class="section section-properties">
       <div class="container">
-<<<<<<< HEAD
-          {{-- @livewire('properties') --}}
-=======
           @livewire('properties')
->>>>>>> dev
       </div>
   </div>
 </div>

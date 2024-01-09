@@ -191,11 +191,7 @@
         <div class="row justify-content-between mb-5">
           <div class="col-lg-7 mb-5 mb-lg-0 order-lg-2">
             <div class="img-about dots">
-<<<<<<< HEAD
-              <img src="images/hero_bg_3.jpg" alt="Image" class="img-fluid" />
-=======
               <img src="{{ $_theme->asset('pub_theme::images/hero_bg_3.jpg') }}" alt="Image" class="img-fluid" />
->>>>>>> dev
             </div>
           </div>
           <div class="col-lg-4">
